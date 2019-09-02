@@ -92,7 +92,7 @@ h2 {
   margin-top: 20px;
   margin-bottom: 30px;
   font-size: 15px; 
-   height: 500px;
+  height: 400px; 
 }
 .col p {
   font-family: "DINPro-Bold", sans-serif;
@@ -101,18 +101,17 @@ h2 {
 }
 .foto_project-1 {
   background-image: linear-gradient(to bottom, rgba(255,255,255,0) 38%, rgba(37,54,74,0.8) 100%), url(../img/section-project/project-1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+   background-size: contain;
+  background-repeat: no-repeat; 
 }
 .foto_project-2 {
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0) 38%, rgba(37,54,74,0.8) 100%), url(../img/section-project/project-2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 0;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 38%, rgba(37,54,74,0.8) 100%), url(../img/section-project/project-2.jpg);
+   background-size: contain;
+  background-repeat: no-repeat; 
 }
 .foto_project-3 {
   background-image: linear-gradient(to bottom, rgba(255,255,255,0) 38%, rgba(37,54,74,0.8) 100%), url(../img/section-project/project-3.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .xoverlay {
@@ -165,7 +164,7 @@ h2 {
 .xoverlay-data {
     width: 90%;
     text-align: center;
-    margin: 31% auto;
+    margin: 20% auto;
 }
 .xoverlay-data p {
     color: #fff;    
